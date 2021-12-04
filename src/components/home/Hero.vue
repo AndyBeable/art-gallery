@@ -25,6 +25,7 @@ export default {
 
 <style scoped lang="scss">
 .hero__container {
+  margin-bottom: 6rem;
   &--image {
     margin-bottom: 32px;
    }
