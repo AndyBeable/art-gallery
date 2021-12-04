@@ -9,7 +9,7 @@
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;700;900&family=IBM+Plex+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;700;900&family=IBM+Plex+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300&display=swap');
 
 :root {
   --orange: #d5966c;
@@ -38,7 +38,8 @@ p,
 p {
   font-weight: 300;
   line-height: 32px;
-  font-size: 22px;
+  font-size: 18px;
   color: var(--gray);
+  font-family: 'Outfit', sans-serif;;
 }
 </style>
