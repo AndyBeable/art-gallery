@@ -37,8 +37,8 @@ p,
 
 p {
   font-weight: 300;
-  line-height: 28px;
-  font-size: 25px;
+  line-height: 32px;
+  font-size: 22px;
   color: var(--gray);
 }
 </style>
