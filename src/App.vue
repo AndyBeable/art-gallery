@@ -9,7 +9,7 @@
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;700;900&family=IBM+Plex+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;700;900&family=IBM+Plex+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&display=swap');
 
 :root {
   --orange: #d5966c;
@@ -33,5 +33,10 @@ p,
 {
   font-family: 'Big Shoulders Display', sans-serif;
   margin: 0;
+}
+
+p {
+  font-weight: 300;
+  color: var(--gray);
 }
 </style>

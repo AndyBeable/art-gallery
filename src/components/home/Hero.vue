@@ -1,8 +1,10 @@
 <template>
   <div class="hero__container">
+    <div class="hero__container--image">
     <img src="../../assets/mobile/image-hero.jpg" alt="hero image" />
+    </div>
     <div class="hero__container--copy">
-      <h1>Modern Art Gallery</h1>
+      <h1>Modern <br>Art Gallery</h1>
       <p>The artwork in the collection of the Modern Art Gallery all began from a spark of inspiration. Will these pieces inspire you? Vist us and find out.</p>
     </div>
   </div>
@@ -14,4 +16,27 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.hero__container {
+  &--image {
+    margin-bottom: 32px;
+   }
+  &--copy {
+    margin: 0px 16px 20px 16px
+  }
+  &--copy h1 {
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 55px;
+    color: var(--black);
+    margin-bottom: 32px;
+  }
+
+  &--copy p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+</style>
