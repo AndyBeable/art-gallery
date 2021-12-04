@@ -6,13 +6,20 @@
     <div class="hero__container--copy">
       <h1>Modern <br>Art Gallery</h1>
       <p>The artwork in the collection of the Modern Art Gallery all began from a spark of inspiration. Will these pieces inspire you? Vist us and find out.</p>
+      <BaseButton />
     </div>
+
   </div>
 </template>
 
 <script>
+import BaseButton from "@/components/ui/BaseButton";
+
 export default {
   name: "Hero",
+  components: {
+    BaseButton
+  }
 };
 </script>
 
@@ -36,6 +43,7 @@ export default {
   &--copy p {
     font-size: 18px;
     line-height: 28px;
+    margin-bottom: 32px;
   }
 }
 

@@ -15,7 +15,7 @@
   --orange: #d5966c;
   --black: #151515;
   --gray: #444444;
-  white: #ffffff;
+  --white: #ffffff;
 }
 
 *,
