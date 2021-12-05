@@ -1,7 +1,6 @@
 <template>
   <div class="hero__container">
     <div class="hero__container--image">
-
       <picture>
         <source
           media="(min-width: 1200px)"
