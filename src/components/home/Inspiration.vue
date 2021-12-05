@@ -37,6 +37,13 @@ export default {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .inspiration__container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
 .inspiration__container__details {
   display: flex;
   flex-direction: column;
