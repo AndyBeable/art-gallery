@@ -1,8 +1,10 @@
 <template>
-  <button>
-    <span>Our location</span>
-    <img src="@/assets/icon-arrow-right.svg" alt="" />
-  </button>
+  <router-link to="/about">
+    <button>
+      <span>Our location</span>
+      <img src="@/assets/icon-arrow-right.svg" alt="" />
+    </button>
+  </router-link>
 </template>
 
 <script>
@@ -22,6 +24,7 @@ button {
   background-color: var(--black);
   color: var(--white);
   text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: 3.64px;
   font-weight: 300;
   cursor: pointer;

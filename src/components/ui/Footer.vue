@@ -33,7 +33,6 @@ export default {
     text-transform: uppercase;
   }
   & p {
-    font-weight: 100;
     color: var(--white);
     margin-bottom: 38px;
   }
