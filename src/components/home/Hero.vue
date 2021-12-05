@@ -70,7 +70,15 @@ export default {
 @media screen and (min-width: 768px) {
   .hero__container {
     display: flex;
+    align-items: center;
+    position: relative;
+
+    &--copy {
+      margin-right: 1rem;
+      position: absolute;
+      max-width: 300px;
+      right: 5rem;
+    }
   }
 }
-
 </style>
