@@ -1,5 +1,6 @@
 <template>
   <div class="hero__container">
+    <div class="hero__black__background"></div>
     <div class="hero__container--image">
       <picture>
         <source
@@ -81,5 +82,11 @@ export default {
       right: 5rem;
     }
   }
+}
+
+.hero__black__background {
+  background-color: var(--black);
+  height: 800px;
+  width: 540px;
 }
 </style>
