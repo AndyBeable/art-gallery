@@ -44,12 +44,13 @@ export default {
 <style scoped lang="scss">
 .hero__container {
   margin-bottom: 6rem;
-  &--image {
+  &--image img {
     margin-bottom: 32px;
-    width: 100vw;
   }
+
   &--copy {
-    margin: 0px 16px 20px 16px
+    width: 90%;
+    margin: 0 auto;
   }
   &--copy h1 {
     font-weight: 900;

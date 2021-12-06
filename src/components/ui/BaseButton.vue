@@ -1,5 +1,5 @@
 <template>
-  <router-link to="/about">
+  <router-link to="/location">
     <button>
       <span>Our location</span>
       <img src="@/assets/icon-arrow-right.svg" alt="" />

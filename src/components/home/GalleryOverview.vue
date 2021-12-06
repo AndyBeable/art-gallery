@@ -32,13 +32,10 @@ export default {
 <style scoped lang="scss">
 .gallery__container {
   display: flex;
-  align-items: center;
   flex-direction: column-reverse;
-  margin-bottom: 32px;
+  width: 90%;
+  margin: 1.5rem auto;
 
-  &--copy {
-    margin: 0px 16px 20px 16px
-  }
   &--copy h2 {
     font-size: 50px;
     text-transform: uppercase;
