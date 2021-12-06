@@ -1,10 +1,30 @@
 <template>
   <div class="inspiration__container">
     <div class="inspiration__large__image">
+      <picture>
+        <source
+          media="(min-width: 1200px)"
+          srcset="../../assets/desktop/image-grid-2.jpg"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="../../assets/tablet/image-grid-2.jpg"
+        />
       <img src="../../assets/mobile/image-grid-2.jpg" alt="">
+      </picture>
     </div>
     <div class="inspiration__small__image">
+      <picture>
+        <source
+          media="(min-width: 1200px)"
+          srcset="../../assets/desktop/image-grid-3.jpg"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="../../assets/tablet/image-grid-3.jpg"
+        />
       <img src="../../assets/mobile/image-grid-3.jpg" alt="">
+      </picture>
     </div>
     <div class="inspiration__copy__container">
       <h4>Come & be inspired</h4>
@@ -40,12 +60,44 @@ export default {
 }
 
 .inspiration__copy__container h4 {
- font-size: 50px;
+  font-size: 50px;
   text-transform: uppercase;
   margin-bottom: 1.2rem;
 }
 .inspiration__copy__container p {
   color: var(--white);
 }
+
+@media screen and (min-width: 768px) {
+  .inspiration__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    //gap: 20px 20px;
+    grid-template-areas:
+      "inspiration__large__image inspiration__small__image"
+      "inspiration__large__image inspiration__copy__container";
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .inspiration__large__image {
+    grid-area: inspiration__large__image;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .inspiration__small__image {
+    grid-area: inspiration__small__image;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .inspiration__copy__container {
+    grid-area: inspiration__copy__container;
+   margin: 0;
+  }
+}
+
 
 </style>
