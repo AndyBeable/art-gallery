@@ -46,6 +46,7 @@ export default {
   margin-bottom: 6rem;
   &--image {
     margin-bottom: 32px;
+    width: 100vw;
   }
   &--copy {
     margin: 0px 16px 20px 16px

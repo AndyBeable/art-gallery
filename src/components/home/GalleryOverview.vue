@@ -63,9 +63,6 @@ export default {
     &--copy h2{
       max-width: 200px;
     }
-
   }
-
-
 }
 </style>

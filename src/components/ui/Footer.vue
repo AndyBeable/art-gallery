@@ -34,6 +34,7 @@ export default {
   background-color: var(--black);
   color: var(--white);
   padding: 48px 16px;
+  min-width: 320px;
 
   & h4 {
     font-size: 30px;
