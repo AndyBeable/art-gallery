@@ -45,6 +45,8 @@ h1 {
 h2 {
   font-size: 50px;
   text-transform: uppercase;
+  line-height: 45px;
+  font-weight: 900;
 }
 
 p {

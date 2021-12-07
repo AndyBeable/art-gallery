@@ -1,15 +1,15 @@
 <template>
-  <div class="location__container">
-    <div class="location__container__title">
+  <div class="location">
+    <div class="location__title">
       <h4>Our Location</h4>
     </div>
-    <div class="location__container__address">
+    <div class="location__address">
       <h5>99 King Street</h5>
       <p>Newport</p>
       <p>RI 02840</p>
       <p>United States of America</p>
     </div>
-    <div class="location__container__detail">
+    <div class="location__detail">
       <p>
         Our newly opened gallery is located near the Edward King House on 99
         King Street, the Modern Art Gallery is free to all visitors and open
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.location__container {
+.location {
   background-color: var(--black);
   padding: 2rem 2rem;
 
@@ -48,6 +48,7 @@ export default {
   &__address h5 {
     color: var(--orange);
     font-size: 32px;
+    font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 1rem;
   }

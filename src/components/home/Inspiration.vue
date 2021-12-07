@@ -1,5 +1,5 @@
 <template>
-  <div class="inspiration__container">
+  <div class="inspiration">
     <div class="inspiration__large__image">
       <picture>
         <source
@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.inspiration__container {
+.inspiration {
   display: flex;
   flex-direction: column;
   align-items: center;
