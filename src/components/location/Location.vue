@@ -30,16 +30,30 @@ export default {
   background-color: var(--black);
   padding: 2rem 2rem;
 
+  p {
+    color: var(--white);
+  }
+
   &__title {
     font-size: 50px;
-    text-transform: uppercase;
     color: var(--white);
+    text-transform: uppercase;
+    margin-bottom: 48px;
   }
 
   &__address {
-    color: var(--white);
+    margin-bottom: 2rem;
   }
 
+  &__address h5 {
+    color: var(--orange);
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  &__address p {
+   line-height: 40px;
+  }
 }
 
 
