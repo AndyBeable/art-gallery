@@ -1,7 +1,7 @@
 <template>
-  <div class="hero__container">
+  <div class="hero">
 <!--    <div class="hero__black__background"></div>-->
-    <div class="hero__container--image">
+    <div class="hero__image">
       <picture>
         <source
           media="(min-width: 1200px)"
@@ -18,7 +18,7 @@
         />
       </picture>
     </div>
-    <div class="hero__container--copy">
+    <div class="hero__copy">
       <h1>Modern <br>Art Gallery</h1>
       <p>
         The artwork in the collection of the Modern Art Gallery all began from a
@@ -43,39 +43,33 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.hero__container {
+.hero {
   margin-bottom: 6rem;
-  &--image .hero-image {
+  &__image .hero-image {
     width: 100%;
+    margin-bottom: 1.5rem;
   }
 
-  &--copy {
-    width: 90%;
-    margin: 0 auto;
+  &__copy {
+    padding: 0 16px;
   }
-  &--copy h1 {
-    font-weight: 900;
-    font-size: 60px;
-    text-transform: uppercase;
-    line-height: 55px;
+  &__copy h1 {
+    margin-bottom: 15px;
     color: var(--black);
-    margin-bottom: 32px;
   }
 
-  &--copy p {
-    font-size: 18px;
-    line-height: 28px;
+  &__copy p {
     margin-bottom: 32px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .hero__container {
+  .hero {
     display: flex;
     align-items: center;
     position: relative;
 
-    &--copy {
+    &__copy {
       margin-right: 1rem;
       position: absolute;
       max-width: 300px;

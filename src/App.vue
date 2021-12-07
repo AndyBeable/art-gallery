@@ -36,6 +36,17 @@ p,
   margin: 0;
 }
 
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
 p {
   font-weight: 300;
   line-height: 32px;
