@@ -1,6 +1,6 @@
 <template>
   <div class="hero__container">
-    <div class="hero__black__background"></div>
+<!--    <div class="hero__black__background"></div>-->
     <div class="hero__container--image">
       <picture>
         <source
@@ -45,8 +45,8 @@ export default {
 <style scoped lang="scss">
 .hero__container {
   margin-bottom: 6rem;
-  &--image img {
-    margin-bottom: 32px;
+  &--image .hero-image {
+    width: 100%;
   }
 
   &--copy {

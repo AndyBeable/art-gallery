@@ -3,7 +3,7 @@
     <Hero />
     <GalleryOverview />
     <Inspiration />
-    <Footer />
+    <Footer/>
   </div>
 </template>
 
