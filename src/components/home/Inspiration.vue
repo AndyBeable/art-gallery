@@ -73,7 +73,6 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    //gap: 20px 20px;
     grid-template-areas:
       "inspiration__large__image inspiration__small__image"
       "inspiration__large__image inspiration__copy__container";
