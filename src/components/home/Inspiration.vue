@@ -68,6 +68,12 @@ export default {
 
 .inspiration__small__image {
   grid-area: inspiration__small__image;
+  height: 100%;
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
 }
 
 .inspiration__copy {
