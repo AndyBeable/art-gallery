@@ -50,9 +50,11 @@ export default {
   .gallery {
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
 
     &__copy {
-      max-width: 300px;
+      max-width: 275px;
     }
     &--copy h2{
       max-width: 200px;
