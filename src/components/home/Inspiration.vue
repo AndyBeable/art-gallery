@@ -21,7 +21,7 @@
         />
         <source
           media="(min-width: 768px)"
-          srcset="../../assets/tablet/image-grid-3@2x.jpg"
+          srcset="../../assets/tablet/image-grid-3.jpg"
         />
         <img src="../../assets/mobile/image-grid-3.jpg" alt=""/>
       </picture>
