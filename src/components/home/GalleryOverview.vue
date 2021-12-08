@@ -47,11 +47,11 @@ export default {
 }
 
 @media screen and (min-width: 768px) {
-  .gallery__container {
+  .gallery {
     flex-direction: row;
     justify-content: center;
 
-    &--copy {
+    &__copy {
       max-width: 300px;
     }
     &--copy h2{

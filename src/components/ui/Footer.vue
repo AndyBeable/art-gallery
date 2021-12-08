@@ -1,13 +1,13 @@
 <template>
   <div class="footer" :class="footerTheme">
     <div class="footer__container">
-      <div class="footer__container--title">
+      <div class="footer__container__title">
         <h4>
           Modern<br />
           Art Gallery
         </h4>
       </div>
-      <div class="footer__container--copy">
+      <div class="footer__container__copy">
         <p>
           The Modern Art Gallery is free to all visitors and open seven days a
           week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
@@ -44,9 +44,9 @@ export default {
 
 <style scoped lang="scss">
 // _vars.scss
-$mobile: 375px;
-$tablet: 768px;
-$desktop: 1440px;
+//$mobile: 375px;
+//$tablet: 768px;
+//$desktop: 1440px;
 
 .footer {
   width: 100vw;
@@ -64,7 +64,7 @@ $desktop: 1440px;
   }
 }
 
-.footer__container {
+.footer {
 
   & h4 {
     font-size: 30px;
@@ -76,17 +76,18 @@ $desktop: 1440px;
   }
 }
 
-@media screen and (min-width: $tablet) {
+@media screen and (min-width: 768px) {
   .footer__container {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
 
-    &--title {
+    &__title {
       width: 125px;
     }
 
-    &--copy {
+    &__copy {
       max-width: 350px;
     }
   }
