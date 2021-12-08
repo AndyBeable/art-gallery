@@ -47,13 +47,13 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
+  margin: 2rem auto;
   gap: 16px;
   color: var(--white);
 
   @media screen and (min-width: 768px) {
     display: grid;
-    width: 500px;
+    justify-content: center;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:

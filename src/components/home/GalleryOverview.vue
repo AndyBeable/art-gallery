@@ -17,7 +17,7 @@
           media="(min-width: 768px)"
           srcset="../../assets/tablet/image-grid-1.jpg"
         />
-        <img src="../../assets/mobile/image-grid-1.jpg" alt="">
+        <img src="../../assets/mobile/image-grid-1.jpg" alt="" />
       </picture>
     </div>
   </div>
@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: "GalleryOverview"
+  name: "GalleryOverview",
 };
 </script>
 
@@ -34,29 +34,28 @@ export default {
   display: flex;
   flex-direction: column-reverse;
   padding: 0 16px;
-  margin-bottom: 120px;
+
 
   &__copy h2 {
     max-width: 235px;
     margin-bottom: 21px;
   }
-  &__image img{
+  &__image img {
     width: 100%;
     margin-bottom: 25px;
   }
-}
 
-@media screen and (min-width: 768px) {
-  .gallery {
+  @media screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    //margin-bottom: 10px;
 
     &__copy {
       max-width: 275px;
     }
-    &--copy h2{
+    &--copy h2 {
       max-width: 200px;
     }
   }
